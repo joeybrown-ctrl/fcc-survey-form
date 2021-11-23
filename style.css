@@ -9,7 +9,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
-    color: grey;
+    color: black;
     margin: 0;
 }
 
@@ -22,6 +22,16 @@ body::before {
     width: 100%;
     z-index: -1;
     /* background-image stuff here */
+    background: orange;
+    background-image: linear-gradient(
+        115deg,
+        rgba(240, 93, 13, 0.8),
+        rgba(245, 198, 8, 0.865)
+    ),
+    url(./assets/niranjan-_-photographs-4cVfDseo2e0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -73,15 +83,16 @@ footer {
 }
 
 .description {
-    font-style: italic;
+    font-style: oblique;
     /* font-weight: 200; */
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); */
+    color: black;
 }
 
 .clue {
     margin-left: 0.25rem;
     font-size: 1rem;
-    color: blue;
+    color: orange;
 }
 
 .text-center {
@@ -90,6 +101,7 @@ footer {
 
 form {
     background-color: blanchedalmond;
+    opacity: 75%;
     padding: 2.5rem 0.5rem;
 }
 
@@ -109,7 +121,7 @@ form {
     background-clip: padding-box;
     border: 1px solid orange;
     border-radius: 0.25rem;
-    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (min-width: 480px) {
