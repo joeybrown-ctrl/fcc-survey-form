@@ -1,3 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro&display=swap');
+
+*, *::before *::after {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: red;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: grey;
+    margin: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background-image stuff here */
+
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+input, button, select, textarea {
+    margin: 0;
+    font-family:inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    width: 100%;
+    margin: 3.25 rem auto 0 auto;
+}
+
+.header {
+    padding: 0 0.5;
 }
