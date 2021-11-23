@@ -106,6 +106,12 @@ form {
     /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
 }
 
+@media (min-width: 480px) {
+    form {
+        padding: 2.5rem;
+    }
+}
+
 .form-control:focus {
     border-color: grey;
     outline: 0;
@@ -137,3 +143,15 @@ form {
     border-radius: 2px;
     cursor: pointer;
 }
+
+/* @media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+} */
