@@ -78,6 +78,7 @@ footer {
 }
 
 .header {
+    color: white;
     padding: 0 0.5;
     margin-bottom: 1.8rem;
 }
@@ -86,7 +87,7 @@ footer {
     font-style: oblique;
     /* font-weight: 200; */
     text-shadow: 1px 1px 1px rgba(240, 98, 10, 0.4);
-    color: black;
+    color: yellow;
 }
 
 .clue {
