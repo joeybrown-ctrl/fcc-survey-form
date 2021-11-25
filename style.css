@@ -85,7 +85,7 @@ footer {
 .description {
     font-style: oblique;
     /* font-weight: 200; */
-    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); */
+    text-shadow: 1px 1px 1px rgba(240, 98, 10, 0.4);
     color: black;
 }
 
@@ -101,7 +101,7 @@ footer {
 
 form {
     background-color: blanchedalmond;
-    opacity: 75%;
+    opacity: 70%;
     padding: 2.5rem 0.5rem;
 }
 
@@ -133,7 +133,7 @@ form {
 .form-control:focus {
     border-color: grey;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(90, 98, 109, 0.25);
 }
 
 .input-radio, .input-checkbox {
